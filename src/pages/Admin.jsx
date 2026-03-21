@@ -7,7 +7,7 @@ import { z } from 'zod';
 import { fetchApplications, approveApplication, rejectApplication, unapproveApplication, fetchMembers, updateFluxTeamStatus } from '../services/members';
 import { fetchAllEvents, createEvent, updateEvent, deleteEvent, publishEvent, unpublishEvent, uploadEventImage, fetchEventRegistrations } from '../services/events';
 import ImageCropModal from '../components/modals/ImageCropModal';
-import AnalyticsDashboard from '../components/admin/AnalyticsDashboard';
+import AnalyticsDashboard from '../components/Admin/AnalyticsDashboard';
 import {
   UserGroupIcon,
   CalendarIcon,
