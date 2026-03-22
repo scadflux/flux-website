@@ -13,7 +13,7 @@ export default function SEOHead({
   title = 'FLUX - SCAD UX Design Club',
   description = 'Join FLUX, the premier UX design community at SCAD. Connect with designers, attend workshops, and build your portfolio.',
   image = '/assets/og-image.png',
-  url = 'https://fluxscad.com',
+  url = 'https://scadflux.com',
   type = 'website',
   keywords = 'SCAD, UX Design, User Experience, Design Club, FLUX, Portfolio, Workshops'
 }) {
