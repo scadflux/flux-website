@@ -27,7 +27,7 @@ export default function Alumni() {
       company: 'Deloitte & UBS',
       fluxRole: 'Visual Design Team',
       image: '/assets/alumni/archana.jpg',
-      story: 'Exemplified the FLUX-to-SCADpro pipeline, leveraging club experience to secure leadership roles in major corporate engagements before transitioning to industry.',
+      story: 'Leveraged FLUX experience to secure leadership roles in major corporate engagements before transitioning to industry.',
       awards: ''
     },
     {
@@ -36,13 +36,13 @@ export default function Alumni() {
       company: 'Multiple Roles',
       fluxRole: 'FLUX Officer',
       image: '/assets/alumni/quintin.jpg',
-      story: 'Served as Team Co-Lead for SCADpro x Google projects, demonstrating how FLUX leadership translates directly to high-stakes professional opportunities.',
+      story: 'Demonstrated how FLUX leadership translates directly to high-stakes professional opportunities.',
       awards: ''
     },
     {
       name: 'Lara Federspiel',
       role: 'Designer & StartUp Coordinator',
-      company: 'SCADpro → Industry',
+      company: 'Industry',
       fluxRole: 'FLUX Officer & StartUp Coordinator',
       image: '/assets/alumni/lara.jpg',
       story: 'Co-led the 2020 virtual Fluxathon pivot and secured the historic Duolingo partnership. Her event management skills translated directly into professional logistics coordination roles.',

@@ -157,24 +157,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* SCADpro Connection */}
-            <div>
-              <h2 className="text-[28px] md:text-[36px] lg:text-[40px] font-medium mb-6" style={{ fontFamily: 'Space Grotesk', lineHeight: '1.1' }}>
-                Our Connection to SCADpro
-              </h2>
-              <div className="text-[16px] md:text-[18px] lg:text-[20px] text-[#646464] space-y-4" style={{ fontFamily: 'Space Grotesk', lineHeight: '1.6' }}>
-                <p>
-                  FLUX maintains a symbiotic relationship with <span className="font-semibold text-[#316EFF]">SCADpro</span>, the university's collaborative design studio that connects students with Fortune 500 clients like Delta, NASA, and Deloitte.
-                </p>
-                <p>
-                  While SCADpro is a credit-bearing, faculty-led consultancy, FLUX serves as its de facto feeder system. Through events like Fluxathon and StartUp, students develop the professional skills—pitching, agile collaboration, and rapid prototyping—that are essential for success in high-stakes SCADpro engagements.
-                </p>
-                <p>
-                  FLUX leadership is often a strong predictor of SCADpro success. Many of our officers go on to lead major SCADpro projects with industry partners like Google, demonstrating the effectiveness of our "battle-testing" approach.
-                </p>
-              </div>
-            </div>
-
             {/* Awards & Recognition */}
             <div>
               <h2 className="text-[28px] md:text-[36px] lg:text-[40px] font-medium mb-6" style={{ fontFamily: 'Space Grotesk', lineHeight: '1.1' }}>

@@ -7,7 +7,7 @@ export default function Partners() {
     {
       name: 'Google',
       type: 'Event Sponsor & Workshop Partner',
-      description: 'Sponsors the AI Design Competition (Fluxathon 2025) and provides workshop facilitators. Many FLUX officers work on SCADpro x Google projects.',
+      description: 'Sponsors the AI Design Competition (Fluxathon 2025) and provides workshop facilitators.',
       impact: 'Workshop Leadership, Event Sponsorship, Career Pipeline'
     },
     {
@@ -24,8 +24,8 @@ export default function Partners() {
     },
     {
       name: 'Deloitte',
-      type: 'SCADpro Partner & Employer',
-      description: 'Frequently collaborates on SCADpro projects. FLUX members often move into roles at Deloitte Digital, demonstrating the effectiveness of our career pipeline.',
+      type: 'Industry Partner & Employer',
+      description: 'FLUX members often move into roles at Deloitte Digital, demonstrating the effectiveness of our career pipeline.',
       impact: 'Corporate Projects, Alumni Employment'
     },
     {
@@ -34,17 +34,6 @@ export default function Partners() {
       description: 'Provides professional coaches during Fluxathon to help teams refine their pitches and presentations, bringing real-world startup accelerator expertise.',
       impact: 'Pitch Training, Presentation Skills'
     }
-  ]
-
-  const scadproPartners = [
-    { name: 'Delta', description: 'Aviation & Customer Experience' },
-    { name: 'NASA', description: 'Aerospace & Innovation' },
-    { name: 'Microsoft', description: 'Technology & Software' },
-    { name: '3M', description: 'Innovation & Product Design' },
-    { name: 'Instagram', description: 'Social Media & UX' },
-    { name: 'Capital One', description: 'Financial Technology' },
-    { name: 'HP (Hewlett-Packard)', description: 'Hardware & Computing' },
-    { name: 'The Home Depot', description: 'Retail & Service Design' }
   ]
 
   return (
@@ -125,37 +114,6 @@ export default function Partners() {
               </div>
             </div>
 
-            {/* SCADpro Connection */}
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 md:p-12">
-              <h2 className="text-[28px] md:text-[36px] font-medium mb-6 text-purple-700" style={{ fontFamily: 'Space Grotesk' }}>
-                The SCADpro Connection
-              </h2>
-              <div className="text-[16px] md:text-[18px] text-[#646464] space-y-4 mb-8" style={{ fontFamily: 'Space Grotesk', lineHeight: '1.6' }}>
-                <p>
-                  FLUX maintains a symbiotic relationship with <span className="font-semibold text-purple-700">SCADpro</span>, SCAD's collaborative design studio that connects students with Fortune 500 clients. While SCADpro is a credit-bearing, faculty-led consultancy, FLUX serves as its de facto feeder system.
-                </p>
-                <p>
-                  Through FLUX events, students develop the professional skills—pitching, agile collaboration, and rapid prototyping—that are essential for success in high-stakes SCADpro engagements. Many FLUX officers go on to lead major SCADpro projects with top-tier industry partners.
-                </p>
-              </div>
-
-              <h3 className="text-[20px] md:text-[24px] font-semibold text-[#242424] mb-6" style={{ fontFamily: 'Space Grotesk' }}>
-                SCADpro Partner Companies
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {scadproPartners.map((partner, index) => (
-                  <div key={index} className="bg-white border-2 border-gray-200 rounded-xl p-4 text-center hover:border-purple-400 transition-all duration-300">
-                    <h4 className="text-[16px] md:text-[18px] font-semibold text-[#242424] mb-1" style={{ fontFamily: 'Space Grotesk' }}>
-                      {partner.name}
-                    </h4>
-                    <p className="text-[12px] md:text-[14px] text-[#787878]" style={{ fontFamily: 'Space Grotesk' }}>
-                      {partner.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             {/* Partnership Impact */}
             <div>
               <h2 className="text-[28px] md:text-[36px] font-medium mb-8" style={{ fontFamily: 'Space Grotesk' }}>
@@ -210,15 +168,6 @@ export default function Partners() {
                 >
                   Contact Us
                 </a>
-                <a
-                  href="https://www.scad.edu/about/industry-partnerships/scadpro"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-8 py-4 bg-white text-[#316EFF] border-2 border-[#316EFF] rounded-full text-[16px] md:text-[18px] font-medium hover:bg-white transition-all duration-300"
-                  style={{ fontFamily: 'Space Grotesk' }}
-                >
-                  Learn About SCADpro
-                </a>
               </div>
             </div>
 
@@ -239,7 +188,7 @@ export default function Partners() {
 
                 <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 md:p-8">
                   <p className="text-[16px] md:text-[18px] text-[#646464] italic mb-4" style={{ fontFamily: 'Space Grotesk', lineHeight: '1.6' }}>
-                    "The students we've worked with through FLUX and SCADpro have consistently exceeded our expectations. Many have joined our team full-time after graduation."
+                    "The students we've worked with through FLUX have consistently exceeded our expectations. Many have joined our team full-time after graduation."
                   </p>
                   <p className="text-[14px] text-[#787878]" style={{ fontFamily: 'Space Grotesk' }}>
                     — Corporate Recruiter
